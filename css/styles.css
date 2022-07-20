@@ -33,6 +33,8 @@ body {
 
 .link {
     text-decoration: none;
+    display: block;
+    padding: 20px;
 }
 
 .container {
