@@ -1,5 +1,5 @@
 :root {
-  --main-color: #2196F3;
+  --accent-color: #2196F3;
   --first-text-color: #212121;
   --second-text-color: #757575;
   --first-color: #FFFFFF;
@@ -19,6 +19,7 @@ h6 {
 }
 
 ul {
+    padding: 0;
     margin: 0;
 }
 
@@ -82,6 +83,7 @@ img {
 }
 
 .header-logo {
+    padding: 0;
     margin-right: 93px;
 
     font-family: 'Raleway';
@@ -98,13 +100,12 @@ img {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--main-color);
+    color: var(--accent-color);
 }
 
 .header-list {
     display: flex;
     justify-content: space-between;
-    padding: 0;
     margin: 0;
     list-style: none;
 }
@@ -128,7 +129,7 @@ img {
 
 .header-list-link:hover,
 .header-list-link:focus {
-    color: var(--main-color);
+    color: var(--accent-color);
 }
 
 .header-contacts {
@@ -155,7 +156,7 @@ img {
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-    color: var(--main-color);
+    color: var(--accent-color);
 }
 
 .hero {
@@ -193,7 +194,7 @@ img {
     letter-spacing: 0.06em;
     color: var(--first-color);
 
-    background: var(--main-color);
+    background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
        
@@ -338,7 +339,7 @@ img {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--main-color);
+    color: var(--accent-color);
 }
 
 .footer-address {
@@ -363,7 +364,7 @@ img {
 
 .footer-address-link:hover,
 .footer-address-link:focus {
-    color: var(--main-color);
+    color: var(--accent-color);
 }
 
 .footer-mail-link {
@@ -376,7 +377,7 @@ img {
 
 .footer-mail-link:hover,
 .footer-mail-link:focus {
-    color: var(--main-color);
+    color: var(--accent-color);
 }
 
 .footer-tel-link {
@@ -389,14 +390,13 @@ img {
 
 .footer-tel-link:hover,
 .footer-tel-link:focus {
-    color: var(--main-color);
+    color: var(--accent-color);
 }
 
 .menu-list {
     display: flex;
     justify-content: center;
     gap: 8px;
-    padding: 0;
     margin-bottom: 50px;
 }
 
@@ -425,7 +425,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--first-color);
 
-    background: var(--main-color);
+    background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
@@ -434,11 +434,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-}
-
-.project-item {
-     flex-basis: calc((100%-60px)/3);
-   
 }
 
 .project {
